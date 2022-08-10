@@ -4,6 +4,7 @@ import ContextUser from "./patterns/ContextAPI/ContextUser";
 import ControlPropsUser from "./patterns/ControlProps/ControlPropsUser";
 import HookUser from "./patterns/CustomHook/HookUser";
 import HOCUserComp from "./patterns/HOC/HOCUserComp";
+import ReducerUser from "./patterns/ReducerPattern/ReducerUser";
 import RenderPropsUser from "./patterns/RenderProps/RenderPropsUser";
 
 function App() {
@@ -24,7 +25,13 @@ function App() {
 
       {/* Higher Order Component */}
       {/* <HOCUserComp/> */}
-      <HookUser/>
+
+      {/* Hooks Pattern */}
+      {/* <HookUser/> */}
+
+      {/* React Reducer */}
+      <ReducerUser/>
+
     </div>
   );
 }
